@@ -4,18 +4,18 @@ import "./styles.css";
 const moviesDB = {
   Action: [
     { name: "Avatar: The Way of Water", rating: "8.2/10" ,descrption:"Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."},
-    { name: "The Peripheral", rating: "7.9/10" },
-    { name: " Andor", rating: "8.4/10" }
+    { name: "The Peripheral", rating: "7.9/10",descrption:"Set in the future when technology has subtly altered society, a woman discovers a secret connection to an alternate reality as well as a dark future of her own." },
+    { name: " Andor", rating: "8.4/10",descrption:"Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero." }
   ],
   Fantacy: [
-    { name: "Troll", rating: "5.8/10" },
-    { name: "Willow", rating: "7.2/10" },
-    { name: "The Addams Family ", rating: "6.9/10" }
+    { name: "Troll", rating: "5.8/10" ,descrption:"Deep in the Dovre mountain, something gigantic wakes up after a thousand years in captivity. The creature destroys everything in its path and quickly approaches Oslo."},
+    { name: "Willow", rating: "7.2/10",descrption:"20 years after vanquishing the wicked queen Bavmorda, the sorcerer Willow Ufgood leads a group of misfits on a dangerous rescue mission into the unknown." },
+    { name: "The Addams Family ", rating: "6.9/10",descrption:"Con artists plan to fleece an eccentric family using an accomplice who claims to be their long-lost uncle." }
   ],
   Romance: [
-    { name: "Lady Chatterley's Lover ", rating: "6.7/10" },
-    { name: "Falling for Christmas ", rating: "5.2/10" },
-    { name: " The Holiday ", rating: "6.9/10" }
+    { name: "Lady Chatterley's Lover ", rating: "6.7/10",descrption:"An unhappily married aristocrat begins a torrid affair with the gamekeeper on her husband's country estate."},
+    { name: "Falling for Christmas ", rating: "5.2/10",descrption:"In the days leading up to Christmas, a young and newly engaged heiress experiences a skiing accident. After being diagnosed with amnesia, she finds herself in the care of the handsome lodge owner and his daughter." },
+    { name: " The Holiday ", rating: "6.9/10",descrption:"Two women troubled with guy-problems swap homes in each other's countries, where they each meet a local guy and fall in love." }
   ]
 };
 var styling = {
